@@ -90,27 +90,27 @@ export const mainMsg8 = ''
 // resource path
 export const mapImageSrc = "image/map.png"
 export let images: string[] = [
-    'image/1.jpg',
-    'image/2.jpg',
-    'image/3.jpg',
-    'image/4.jpg',
-    'image/5.jpg',
-    'image/6.jpg',
-    'image/7.jpg',
-    'image/8.jpg',
-    'image/9.jpg',
-	'image/10.jpg',
-	'image/11.jpg',
-	'image/13.jpg',
-	'image/14.jpg',
-	'image/15.jpg',
-	'image/16.jpg',
-	'image/18.jpg',
-	'image/19.jpg',
-	'image/20.jpg',
-	'image/21.jpg'
+    '/image/1.jpg',
+    '/image/2.jpg',
+    '/image/3.jpg',
+    '/image/4.jpg',
+    '/image/5.jpg',
+    '/image/6.jpg',
+    '/image/7.jpg',
+    '/image/8.jpg',
+    '/image/9.jpg',
+	'/image/10.jpg',
+	'/image/11.jpg',
+	'/image/13.jpg',
+	'/image/14.jpg',
+	'/image/15.jpg',
+	'/image/16.jpg',
+	'/image/18.jpg',
+	'/image/19.jpg',
+	'/image/20.jpg',
+	'/image/21.jpg'
 ];
 
-export const mainImageURL = 'image/11.jpg';
-//export const mainImageURL = 'https://wedding-invi-one.vercel.app/image/11.jpg'; 
-export const siteURL = 'https://wedding-invi-one.vercel.app'
+export const mainImageURL = '/image/11.jpg';
+//export const mainImageURL = 'https://wed-inv-one.vercel.app/image/11.jpg'; 
+export const siteURL = 'https://wed-inv-one.vercel.app/'
