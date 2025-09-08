@@ -1,6 +1,6 @@
 <script lang="ts">
 	import AccountItem from './AccountItem.svelte';
-	import { AccountInfo } from '../resource/input';
+	import { AccountInfo, AccoutMsg1, AccoutMsg2, AccoutMsg3 } from '../resource/input';
 
 	const groomName = AccountInfo.groomName;
 	const groomBank = AccountInfo.groomBank 
@@ -29,7 +29,12 @@
 
 <div class="py-5 mb-20">
   <h1 class="text-3xl md:text-3xl m-5 font-bold text-center text-stone-600">마음 전하실 곳</h1>
-
+	<p class="leading-relaxed mt-1 text-base text-center">
+		{AccoutMsg1} <br />
+		{AccoutMsg2} <br />
+		{AccoutMsg3} <br />
+		<br	/>
+	</p>
   <div class="text-center m-2">
     <h2 class="text-lg font-semibold mb-2">신랑측 계좌번호</h2>
     <AccountItem name={groomName} bank={groomBank} accountNum={groomAccountNum} />
