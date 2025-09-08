@@ -1,6 +1,6 @@
 <script>
 	import { AccountInfo, brideName, groomName } from "../resource/input";
-	import { mainImageURL, siteURL, groomFullName, brideFullName, dday, timeStr, poiName } from '$lib/resource/input'; // 경로 맞게
+	import { mainImageURL, siteURL, groomFullName, brideFullName, dday, timeStr, poiName } from "../resource/input"; // 경로 맞게
 	const title = `${groomFullName} ❤ ${brideFullName}의 결혼식에 초대합니다.`;
 	const description = `${dday[0]}년 ${dday[1]}월 ${dday[2]}일 ${timeStr} ${poiName}`;
 </script>
