@@ -24,7 +24,7 @@
 		<div class="flex flex-col w-full px-5 mt-4">
 			<div class="card p-4 my-2 bg-base-100 shadow-xl">
 				<h2 class="text-xl font-bold title-font">🚗 자가용</h2>
-				<p class="leading-relaxed mt-1 text-base">
+				<p class="leading-relaxed mt-1 text-lg">
 					{privateCarMsg1} <br />
 					{privateCarMsg2} <br />
 					{privateCarMsg3} <br />
@@ -36,7 +36,7 @@
 
 			<div class="card p-4 my-2 bg-base-100 shadow-xl">
 				<h2 class="text-xl font-bold title-font">🚎 대중교통</h2>
-				<p class="leading-relaxed mt-1 text-base">
+				<p class="leading-relaxed mt-1 text-lg">
 					{publicTransportMsg1} <br />
 					{publicTransportMsg2} <br />
 					{publicTransportMsg3} <br />

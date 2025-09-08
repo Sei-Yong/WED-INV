@@ -15,9 +15,9 @@
 </script>
 
 <div class="flex flex-row justify-center items-center">
-	<p class="text-lg px-1">{name}</p>
-	<p class="text-justify px-1 text-lg">{bank}</p>
-	<p class="text-justify px-1 text-lg">{accountNum}</p>
+	<p class="text-xl px-1">{name}</p>
+	<p class="text-justify px-1 text-xl">{bank}</p>
+	<p class="text-justify px-1 text-xl">{accountNum}</p>
 	<button
 		class="inline-block rounded bg-gray-200 px-2 m-1 pb-[5px] pt-[6px] text-xs font-medium"
 		on:click={() => copyAccount(accountNum)}>복사<Icon data={copyIcon} /></button
