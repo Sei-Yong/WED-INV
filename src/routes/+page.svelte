@@ -20,23 +20,24 @@
 
 <svelte:head>
   <title>{title}</title>
-  <link rel="canonical" href={siteUrl} />
-  <meta name="description" content={description} />
 
-  <!-- Open Graph -->
+  <!-- Open Graph (카톡이 주로 보는 것) -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content={siteUrl} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={imageUrl} />
+  <meta property="og:url" content="https://wed-inv-one.vercel.app/" />
+  <meta property="og:site_name" content="전세용 ❤ 김정아 청첩장" />
+
+  <!-- 반드시 절대경로(https) & 용량 1~2MB 이하 & 가로형 추천 -->
+  <meta property="og:image" content="https://wed-inv-one.vercel.app/image/og-cover.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <!-- Twitter Card (선택이지만 권장) -->
+  <!-- 트위터 카드(카톡은 OG 보지만, 다른 메신저/앱 호환) -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={imageUrl} />
+  <meta name="twitter:image" content="https://wed-inv-one.vercel.app/image/og-cover.jpg" />
 </svelte:head>
 
 <Header />
