@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { groomFullName, dday, brideFullName, poiSubText, poiName, timeStr } from '../resource/input'
 
-	const imgURL = 'image/11.jpg';
+	const imgURL = 'image/Main.jpg';
 	const dateText = dday[0] + '년 ' + dday[1] + '월 ' + dday[2] + '일, ' + timeStr;
 	export let isTouched: boolean;
 </script>
 
-<img src={imgURL} alt="intro" width="339" height="512" class="w-1/2 mx-auto pb-5" />
+<img src={imgURL} alt="intro" width="339" height="512" class="w-3/4 mx-auto pb-5" />
 <div class="text-center justify-center modal-middle flex py-5 text-2xl">
 	<span class="px-3">{groomFullName}</span>
 	<span class="text-xl text-primary px-3">❤</span>

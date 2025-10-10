@@ -96,10 +96,11 @@ export let images: string[] = [
 	'/image/18.jpg',
 	'/image/19.jpg',
 	'/image/20.jpg',
-	'/image/21.jpg'
+	'/image/21.jpg',
+	'/image/Main.jpg'
 ];
 
 // 배포 도메인 (뒤에 / 없음)
-export const siteURL = 'https://wed-inv-one.vercel.app/';
+export const siteURL = 'https://wed-inv-one.vercel.app';
 // 메인 미리보기 이미지 절대 URL
-export const mainImageURL = `https://wed-inv-one.vercel.app/image/11.jpg`;
+export const mainImageURL = `https://wed-inv-one.vercel.app/image/Main.jpg`;
