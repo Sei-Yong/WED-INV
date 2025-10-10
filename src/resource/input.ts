@@ -96,8 +96,7 @@ export let images: string[] = [
 	'/image/18.jpg',
 	'/image/19.jpg',
 	'/image/20.jpg',
-	'/image/21.jpg',
-	'/image/Main.jpg'
+	'/image/21.jpg'
 ];
 
 // 배포 도메인 (뒤에 / 없음)
